@@ -78,7 +78,13 @@
         <cursorShape>IBeamCursor</cursorShape>
        </property>
        <property name="text">
-        <string>Copyright © 2018 The IDOLCOIN developers</string>
+           <string>Copyright © 2018 The IDOLCOIN developers&lt;br&gt;Copyright © 2019 Kikyou Akino &amp;lt;&lt;a href=&quot;mailto:bellflower@web4u.jp&quot; style=&quot;color: crimson;&quot;&gt;bellflower@web4u.jp&lt;/a&gt;&amp;gt;</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
        </property>
        <property name="textInteractionFlags">
         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -106,13 +112,6 @@ This product includes software developed by the OpenSSL Project for use in the O
        </property>
        <property name="textInteractionFlags">
         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>Join us on the community at &lt;a href=&quot;https://discord.gg/tB9yA2g&quot; style=&quot;color: crimson;&quot;&gt;https://discord.gg/tB9yA2g&lt;/a&gt;</string>
        </property>
       </widget>
      </item>
