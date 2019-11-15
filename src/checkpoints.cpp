@@ -36,7 +36,8 @@ namespace Checkpoints
             (80245, uint256("0x952ed827c8c8e21b9c923c16051bdb0de1356cea2637128c43f0e31a73933c10"))
             (94799, uint256("0xaf5443aec4c018f2b7b2d394cd7af0b640fb4336a6210910b6e19f1290c76aa8"))
             (100000, uint256("0x822ea28c5053ed6c46664af1d48ceff30ebe834cbfe6fb33ddc79197581f0b2a")) // 2018-11-18 09:53:34 UTC
-            (107200, uint256("59517b7a9e68edebfa4a846407cc5c1a71b623af4148a89637d32ac121435194")) // HF v1.0.4
+            (107200, uint256("0x59517b7a9e68edebfa4a846407cc5c1a71b623af4148a89637d32ac121435194")) // HF v1.0.4
+            (354898, uint256("0x0fcaf02d679f6591175099f13c6ceb6563d6c02de9ff4acc32ba9af6f14fb445")) // 2019-11-13  11:51:23 UTC added by Unofficial
     ;
 
     // TestNet has no checkpoints
