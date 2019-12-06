@@ -1,5 +1,9 @@
 IDOL
-./Makefile
+/.qmake.stash
+/Makefile
+/Makefile.Debug
+/Makefile.Release
+/idol_plugin_import.cpp
 src/*.exe
 src/IDOL
 src/IDOLd
