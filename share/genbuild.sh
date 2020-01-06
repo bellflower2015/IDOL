@@ -48,9 +48,11 @@ else
 fi
 
 TIME="$(git log -n 1 --format="%ci")"
+YEAR="$(date -d "$D" '+%Y')"
 
 # only update build.h if necessary
 if [ "$INFO" != "$NEWINFO" ]; then
     echo "$NEWINFO" >"$FILE"
     echo "#define BUILD_DATE \"$TIME\"" >>"$FILE"
+    echo "#define COPYRIGHT_YEAR $YEAR" >>"$FILE"
 fi

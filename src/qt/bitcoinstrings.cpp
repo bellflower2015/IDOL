@@ -198,4 +198,13 @@ QT_TRANSLATE_NOOP("bitcoin-core", "Warning: Disk space is low!"),
 QT_TRANSLATE_NOOP("bitcoin-core", ""
 "WARNING: Invalid checkpoint found! Displayed transactions may not be "
 "correct! You may need to upgrade, or notify developers."),
+QT_TRANSLATE_NOOP("bitcoin-core", "This is experimental software."),
+QT_TRANSLATE_NOOP("bitcoin-core", ""
+"Distributed under the MIT software license, see the accompanying file %s or "
+"%s ."),
+QT_TRANSLATE_NOOP("bitcoin-core", ""
+"This product includes software developed by the OpenSSL Project for use in "
+"the OpenSSL Toolkit %s and cryptographic software written by Eric Young and "
+"UPnP software written by Thomas Bernard."),
+QT_TRANSLATE_NOOP("bitcoin-core", "(%1-bit)"),
 };

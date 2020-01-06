@@ -9,29 +9,9 @@
         <translation>About IDOLCOIN</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+26"/>
         <source>&lt;b&gt;IDOL&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;IDOL&lt;/b&gt; version</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>Copyright © 2018 The IDOLCOIN developers</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</translation>
+        <translation>&lt;b&gt;IDOLCOIN&lt;/b&gt; version</translation>
     </message>
 </context>
 <context>
@@ -3323,6 +3303,26 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</translation>
+    </message>
+    <message>
+        <location line="+173"/>
+        <source>This is experimental software.</source>
+        <translation>This is experimental software.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s .</source>
+        <translation>Distributed under the MIT software license, see the accompanying file %s or %s .</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>(%i-bit)</source>
+        <translation>(%i-bit)</translation>
     </message>
 </context>
 </TS>

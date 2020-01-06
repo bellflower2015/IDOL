@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ja">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -7,24 +9,9 @@
         <translation>IDOLCOINについて</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+26"/>
         <source>&lt;b&gt;IDOL&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;IDOLCOIN&lt;/b&gt;バージョン</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-これは実験的なソフトウェアです。
-
-MIT/X11 ソフトウェア ライセンスの下で配布されています。詳しくは添付の COPYING ファイルやhttp://www.opensource.org/licenses/mit-license.php を参照してください。
-
-この製品は OpenSSL Toolkit (http://www.openssl.org/) に用いられる  Eric Young (eay@cryptsoft.com)  が開発した暗号化ソフトウェアと Thomas Bernard が開発した UPnP ソフトウェアを含んでいます。</translation>
+        <translation>&lt;b&gt;IDOLCOIN&lt;/b&gt; バージョン</translation>
     </message>
 </context>
 <context>
@@ -3457,6 +3444,26 @@ If the file does not exist, create it with owner-readable-only file permissions.
 %s
 ファイルが無い場合は、オーナーだけが読み取れる権限でファイルを作成してください。</translation>
     </message>
+    <message>
+        <location line="+173"/>
+        <source>This is experimental software.</source>
+        <translation>これは実験用のソフトウェアです。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s .</source>
+        <translation>MIT ソフトウェアライセンスのもとで配布されています。付属の %s ファイルか、 %s を参照してください。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>この製品は、 OpenSSL ツールキット %s で使用するために OpenSSL プロジェクトにより開発されたソフトウェアと、 Eric Young 氏により開発された暗号ソフトウェア、 Thomas Bernard 氏により開発された UPnP ソフトウェアを使用しています。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>(%i-bit)</source>
+        <translation>(%i ビット)</translation>
+    </message>
 </context>
 <context>
     <name>MultisigDialog</name>
@@ -3616,5 +3623,4 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <translation>トランザクション送信</translation>
     </message>
 </context>
-
 </TS>

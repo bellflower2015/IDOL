@@ -55,6 +55,10 @@ namespace boost {
 # include <sys/prctl.h>
 #endif
 
+#ifdef HAVE_BUILD_INFO
+#include "build.h"
+#endif
+
 using namespace std;
 
 map<string, string> mapArgs;
@@ -1261,6 +1265,42 @@ string FormatVersion(int nVersion)
 string FormatFullVersion()
 {
     return CLIENT_BUILD;
+}
+
+string FormatAboutVersion()
+{
+    std::string version = _("IDOLCOIN version") + " " + FormatFullVersion();
+
+    /* On x86 add a bit specifier to the version so that users can distinguish between
+     * 32 and 64 bit builds. On other architectures, 32/64 bit may be more ambiguous.
+     */
+#if defined(__x86_64__)
+    version += " " + strprintf(_("(%i-bit)"), 64);
+#elif defined(__i386__ )
+    version += " " + strprintf(_("(%i-bit)"), 32);
+#endif
+
+    return version;
+}
+
+string FormatCopyright()
+{
+    std::string bfCopyright = strprintf(_("Copyright (C) %i-%i"), 2019, COPYRIGHT_YEAR) + " Kikyou Akino <mailto:bellflower@web4u.jp>";
+
+    return bfCopyright + "\n" +
+        "Copyright (C) 2018 The IDOLCOIN developers";
+}
+
+string FormatLicense()
+{
+    std::string str1 = strprintf(_("Distributed under the MIT software license, see the accompanying file %s or %s ."), "COPYING", "<https://opensource.org/licenses/MIT>");
+    std::string str2 = strprintf(_("This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard."), "<https://www.openssl.org>");
+
+    return _("This is experimental software.") + "\n" +
+        str1 + "\n" +
+        "\n" +
+        str2 +
+        "\n";
 }
 
 // Format the subversion field according to BIP 14 spec (https://en.bitcoin.it/wiki/BIP_0014)
