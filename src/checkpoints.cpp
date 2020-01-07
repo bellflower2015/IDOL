@@ -39,6 +39,7 @@ namespace Checkpoints
             (107200, uint256("0x59517b7a9e68edebfa4a846407cc5c1a71b623af4148a89637d32ac121435194")) // HF v1.0.4
             (354898, uint256("0x0fcaf02d679f6591175099f13c6ceb6563d6c02de9ff4acc32ba9af6f14fb445")) // 2019-11-13 11:51:23 UTC added by tfcom#3484
             (381940, uint256("0x6a44c05910e36a7f817c4ce08dff81d64ed801b6be9077c05e26a212635ad0ae")) // 2019-12-02 09:28:37 UTC added by tfcom#3484
+            (427220, uint256("0x12681ea17b792a92344424cf792849c30bee0dd9bfb4de418991679f0c2e27a8")) // 2020-01-03 00:22:54 UTC added by Discord Dev
     ;
 
     // TestNet has no checkpoints
